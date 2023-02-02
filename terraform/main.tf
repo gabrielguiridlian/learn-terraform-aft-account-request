@@ -1,9 +1,9 @@
-module "test" {
+module "anothertest" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
     AccountEmail              = "sindhuja.soma@gainwelltechnologies.com"
-    AccountName               = "testaft"
+    AccountName               = "testtest"
     ManagedOrganizationalUnit = "GWT-AWS-PRODENG-GBL-OU-SANDBOX"
     SSOUserEmail              = "sindhuja.soma@gainwelltechnologies.com"
     SSOUserFirstName          = "Sandbox"
