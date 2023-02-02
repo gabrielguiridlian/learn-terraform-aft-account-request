@@ -1,9 +1,9 @@
-module "anothertest" {
+module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
     AccountEmail              = "sindhuja.soma@gainwelltechnologies.com"
-    AccountName               = "testtest"
+    AccountName               = "aftsandboxignore"
     ManagedOrganizationalUnit = "GWT-AWS-PRODENG-GBL-OU-SANDBOX"
     SSOUserEmail              = "sindhuja.soma@gainwelltechnologies.com"
     SSOUserFirstName          = "Sandbox"
@@ -23,5 +23,5 @@ module "anothertest" {
     group = "non-prod"
   }
 
-  account_customizations_name = "anothertest"
+  account_customizations_name = "sandbox"
 }
